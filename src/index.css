@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #29241B;
+}
+
+@layer base {
+    h1 {
+        font-family: "Pacifico", serif;
+        font-weight: 400;
+        font-style: norma
+    }
+
+    h2 {
+        font-family: "Merienda", serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+    }
+}
